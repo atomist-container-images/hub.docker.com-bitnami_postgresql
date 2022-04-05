@@ -1,5 +1,5 @@
-# Tags: 10.20.0-debian-10-r49, 10.20.0, 10-debian-10, 10
-FROM bitnami/postgresql:10.20.0-debian-10-r49
+# Tags: 10.20.0-debian-10-r53, 10.20.0, 10-debian-10, 10
+FROM bitnami/postgresql:10.20.0-debian-10-r53
 FROM bitnami/postgresql:10.20.0
 FROM bitnami/postgresql:10-debian-10
 FROM bitnami/postgresql:10
@@ -7,30 +7,90 @@ FROM bitnami/postgresql:10
 # Tags: _
 FROM bitnami/postgresql:_
 
-# Tags: 11.15.0-debian-10-r49, 11.15.0, 11-debian-10, 11
-FROM bitnami/postgresql:11.15.0-debian-10-r49
+# Tags: 11.15.0-debian-10-r53, 11.15.0, 11-debian-10, 11
+FROM bitnami/postgresql:11.15.0-debian-10-r53
 FROM bitnami/postgresql:11.15.0
 FROM bitnami/postgresql:11-debian-10
 FROM bitnami/postgresql:11
 
-# Tags: 12.10.0-debian-10-r49, 12.10.0, 12-debian-10, 12
-FROM bitnami/postgresql:12.10.0-debian-10-r49
+# Tags: 12.10.0-debian-10-r53, 12.10.0, 12-debian-10, 12
+FROM bitnami/postgresql:12.10.0-debian-10-r53
 FROM bitnami/postgresql:12.10.0
 FROM bitnami/postgresql:12-debian-10
 FROM bitnami/postgresql:12
 
-# Tags: latest, 14.2.0-debian-10-r48, 14.2.0, 14-debian-10, 14
+# Tags: latest, 14.2.0-debian-10-r52, 14.2.0, 14-debian-10, 14
 FROM bitnami/postgresql:latest
-FROM bitnami/postgresql:14.2.0-debian-10-r48
+FROM bitnami/postgresql:14.2.0-debian-10-r52
 FROM bitnami/postgresql:14.2.0
 FROM bitnami/postgresql:14-debian-10
 FROM bitnami/postgresql:14
 
-# Tags: 13.6.0-debian-10-r49, 13.6.0, 13-debian-10, 13
-FROM bitnami/postgresql:13.6.0-debian-10-r49
+# Tags: 13.6.0-debian-10-r53, 13.6.0, 13-debian-10, 13
+FROM bitnami/postgresql:13.6.0-debian-10-r53
 FROM bitnami/postgresql:13.6.0
 FROM bitnami/postgresql:13-debian-10
 FROM bitnami/postgresql:13
+
+# Tags: 10.20.0-debian-10-r52
+FROM bitnami/postgresql:10.20.0-debian-10-r52
+
+# Tags: 11.15.0-debian-10-r52
+FROM bitnami/postgresql:11.15.0-debian-10-r52
+
+# Tags: 12.10.0-debian-10-r52
+FROM bitnami/postgresql:12.10.0-debian-10-r52
+
+# Tags: 13.6.0-debian-10-r52
+FROM bitnami/postgresql:13.6.0-debian-10-r52
+
+# Tags: 14.2.0-debian-10-r51
+FROM bitnami/postgresql:14.2.0-debian-10-r51
+
+# Tags: 10.20.0-debian-10-r51
+FROM bitnami/postgresql:10.20.0-debian-10-r51
+
+# Tags: 11.15.0-debian-10-r51
+FROM bitnami/postgresql:11.15.0-debian-10-r51
+
+# Tags: 12.10.0-debian-10-r51
+FROM bitnami/postgresql:12.10.0-debian-10-r51
+
+# Tags: 13.6.0-debian-10-r51
+FROM bitnami/postgresql:13.6.0-debian-10-r51
+
+# Tags: 14.2.0-debian-10-r50
+FROM bitnami/postgresql:14.2.0-debian-10-r50
+
+# Tags: 10.20.0-debian-10-r50
+FROM bitnami/postgresql:10.20.0-debian-10-r50
+
+# Tags: 11.15.0-debian-10-r50
+FROM bitnami/postgresql:11.15.0-debian-10-r50
+
+# Tags: 12.10.0-debian-10-r50
+FROM bitnami/postgresql:12.10.0-debian-10-r50
+
+# Tags: 13.6.0-debian-10-r50
+FROM bitnami/postgresql:13.6.0-debian-10-r50
+
+# Tags: 14.2.0-debian-10-r49
+FROM bitnami/postgresql:14.2.0-debian-10-r49
+
+# Tags: 10.20.0-debian-10-r49
+FROM bitnami/postgresql:10.20.0-debian-10-r49
+
+# Tags: 11.15.0-debian-10-r49
+FROM bitnami/postgresql:11.15.0-debian-10-r49
+
+# Tags: 12.10.0-debian-10-r49
+FROM bitnami/postgresql:12.10.0-debian-10-r49
+
+# Tags: 13.6.0-debian-10-r49
+FROM bitnami/postgresql:13.6.0-debian-10-r49
+
+# Tags: 14.2.0-debian-10-r48
+FROM bitnami/postgresql:14.2.0-debian-10-r48
 
 # Tags: 10.20.0-debian-10-r48
 FROM bitnami/postgresql:10.20.0-debian-10-r48
@@ -436,78 +496,3 @@ FROM bitnami/postgresql:11.15.0-debian-10-r22
 
 # Tags: 10.20.0-debian-10-r22
 FROM bitnami/postgresql:10.20.0-debian-10-r22
-
-# Tags: 14.2.0-debian-10-r20
-FROM bitnami/postgresql:14.2.0-debian-10-r20
-
-# Tags: 12.10.0-debian-10-r21
-FROM bitnami/postgresql:12.10.0-debian-10-r21
-
-# Tags: 13.6.0-debian-10-r21
-FROM bitnami/postgresql:13.6.0-debian-10-r21
-
-# Tags: 11.15.0-debian-10-r21
-FROM bitnami/postgresql:11.15.0-debian-10-r21
-
-# Tags: 10.20.0-debian-10-r21
-FROM bitnami/postgresql:10.20.0-debian-10-r21
-
-# Tags: 14.2.0-debian-10-r19
-FROM bitnami/postgresql:14.2.0-debian-10-r19
-
-# Tags: 12.10.0-debian-10-r20
-FROM bitnami/postgresql:12.10.0-debian-10-r20
-
-# Tags: 13.6.0-debian-10-r20
-FROM bitnami/postgresql:13.6.0-debian-10-r20
-
-# Tags: 11.15.0-debian-10-r20
-FROM bitnami/postgresql:11.15.0-debian-10-r20
-
-# Tags: 10.20.0-debian-10-r20
-FROM bitnami/postgresql:10.20.0-debian-10-r20
-
-# Tags: 14.2.0-debian-10-r18
-FROM bitnami/postgresql:14.2.0-debian-10-r18
-
-# Tags: 12.10.0-debian-10-r19
-FROM bitnami/postgresql:12.10.0-debian-10-r19
-
-# Tags: 13.6.0-debian-10-r19
-FROM bitnami/postgresql:13.6.0-debian-10-r19
-
-# Tags: 11.15.0-debian-10-r19
-FROM bitnami/postgresql:11.15.0-debian-10-r19
-
-# Tags: 10.20.0-debian-10-r19
-FROM bitnami/postgresql:10.20.0-debian-10-r19
-
-# Tags: 14.2.0-debian-10-r17
-FROM bitnami/postgresql:14.2.0-debian-10-r17
-
-# Tags: 13.6.0-debian-10-r18
-FROM bitnami/postgresql:13.6.0-debian-10-r18
-
-# Tags: 12.10.0-debian-10-r18
-FROM bitnami/postgresql:12.10.0-debian-10-r18
-
-# Tags: 11.15.0-debian-10-r18
-FROM bitnami/postgresql:11.15.0-debian-10-r18
-
-# Tags: 10.20.0-debian-10-r18
-FROM bitnami/postgresql:10.20.0-debian-10-r18
-
-# Tags: 14.2.0-debian-10-r16
-FROM bitnami/postgresql:14.2.0-debian-10-r16
-
-# Tags: 13.6.0-debian-10-r17
-FROM bitnami/postgresql:13.6.0-debian-10-r17
-
-# Tags: 12.10.0-debian-10-r17
-FROM bitnami/postgresql:12.10.0-debian-10-r17
-
-# Tags: 11.15.0-debian-10-r17
-FROM bitnami/postgresql:11.15.0-debian-10-r17
-
-# Tags: 10.20.0-debian-10-r17
-FROM bitnami/postgresql:10.20.0-debian-10-r17
